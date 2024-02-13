@@ -9,7 +9,7 @@ public class myconnection {
       {
        Class.forName("com.mysql.cj.jdbc.Driver");
         System.out.println("Driver is registered");
-	con= DriverManager.getConnection("jdbc:mysql://localhost:3306/certificate", "root","Swapnil@12120131");
+	con= DriverManager.getConnection("jdbc:mysql://localhost:3306/certificate", "root","");
 	if(con.isClosed())
 			{
 				System.out.println("connection closed ");
