@@ -7,9 +7,9 @@ public class Conn {
     public Conn(){
         
         try {
-            String url = "jdbc:mysql://localhost:3306/certificateapp";
-            String user = "root";
-            String Pass = "Swapnil@12120131";
+            String url = " ";
+            String user = " ";
+            String Pass = " ";
 
             c = DriverManager.getConnection(url, user, Pass);
             s = c.createStatement();
